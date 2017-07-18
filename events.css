@@ -1,0 +1,32 @@
+/*The first section's text should be bold.*/
+section:first-child {
+	font-weight: bold;
+}
+
+/*The last section's text should be bold and italicized.*/
+
+section:last-of-type {
+	font-style: italic;
+}
+/*Make the buttons stop appearing next to each other as inline elements. Change them into block elements*/
+
+
+button {
+	display: block;
+}
+
+.blue {
+	color: blue;
+}
+
+.hulkify {
+	font-size: 10em;
+}
+
+.capture {
+	border: 1px solid #000;
+}
+
+.rounded {
+	border-radius: 50%;
+}
